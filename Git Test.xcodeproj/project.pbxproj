@@ -21,6 +21,7 @@
 		8C9B32EB19C257C8004A675C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9B32CD19C257C8004A675C /* UIKit.framework */; };
 		8C9B32F319C257C8004A675C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B32F119C257C8004A675C /* InfoPlist.strings */; };
 		8C9B32F519C257C8004A675C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B32F419C257C8004A675C /* Git_TestTests.m */; };
+		8C9B330019C259DF004A675C /* WLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B32FF19C259DF004A675C /* WLTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8C9B32F019C257C8004A675C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		8C9B32F219C257C8004A675C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C9B32F419C257C8004A675C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		8C9B32FE19C259DF004A675C /* WLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTest.h; sourceTree = "<group>"; };
+		8C9B32FF19C259DF004A675C /* WLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				8C9B32DB19C257C8004A675C /* Main.storyboard */,
 				8C9B32DE19C257C8004A675C /* WLViewController.h */,
 				8C9B32DF19C257C8004A675C /* WLViewController.m */,
+				8C9B32FE19C259DF004A675C /* WLTest.h */,
+				8C9B32FF19C259DF004A675C /* WLTest.m */,
 				8C9B32E119C257C8004A675C /* Images.xcassets */,
 				8C9B32D019C257C8004A675C /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				8C9B32E019C257C8004A675C /* WLViewController.m in Sources */,
 				8C9B32D619C257C8004A675C /* main.m in Sources */,
+				8C9B330019C259DF004A675C /* WLTest.m in Sources */,
 				8C9B32DA19C257C8004A675C /* WLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
